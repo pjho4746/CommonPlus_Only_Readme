@@ -26,17 +26,17 @@
 ---
 
 ### 📍 시연 영상
-**쇼핑몰 계정 관리 페이지** <br/>
+**1. 쇼핑몰 계정 관리 페이지** <br/>
 ![커먼클러스 시연1](https://github.com/user-attachments/assets/72d0eedd-0a2c-4d19-a82d-8b4aec57d879)
 
-**쇼핑몰 그룹 관리 페이지** <br/>
+**2. 쇼핑몰 그룹 관리 페이지** <br/>
 ![커먼플러스 시연 2](https://github.com/user-attachments/assets/eaa154f5-e40a-4314-b3f7-c18f103410b2)
 
 
-**쇼핑몰 그룹 관리 페이지** <br/>
+**3. 쇼핑몰 그룹 관리 페이지** <br/>
 ![커먼플러스 시연3](https://github.com/user-attachments/assets/159132da-5b7f-4072-a172-59d16c29f8c3)
 
-**보관 상품(쇼핑몰, 커먼플러스) 관련 기능** <br/>
+**4. 보관 상품(쇼핑몰, 커먼플러스) 관련 기능** <br/>
 ![커먼플러스 시연4](https://github.com/user-attachments/assets/b47b0748-686f-484d-8e27-af7194d581b1)
 
 ---
@@ -53,24 +53,23 @@
 ---
 
 ### 📍 시작가이드
-
-#### 환경
+#### [환경]
 * java 17
 * Gradle 8.x
 * Spring Boot 3.2.x
 * MySQL 8.x
 
-#### 실행과정
+#### [실행과정]
 <pre><code>git clone https://github.com/commonplus/commonplus-back.git
 cd commonplus-back
 build gradle
 gradlew run
 </code></pre>
 
-#### 환경변수
-[노션페이지](https://www.notion.so/env-8308e3ffd01843b8a49d9a173452c2a5?pvs=4)
+#### [환경변수]
+[Notion](https://www.notion.so/env-8308e3ffd01843b8a49d9a173452c2a5?pvs=4)
 
-#### 폴더 구조 설명
+#### [폴더 구조 설명]
 * address : 외부 쇼핑몰 주소록 관리
 * category : 외부 쇼핑몰 카테고리
 * cs : 외부 쇼핑몰 고객 문의 관리
@@ -83,9 +82,9 @@ gradlew run
 * shopProduct : 외부 쇼핑몰 상품 등록 관리
 * user : 사용자 계정 관리
 
-#### 데이터베이스 설정
+#### [데이터베이스 설정]
 <pre><code>create database commonplus character set utf8mb4 collate utf8mb4_general_ci;</code></pre>
 
-#### ERD
+#### [ERD]
 <img width="978" alt="커먼플러스1" src="https://github.com/user-attachments/assets/36bb9e1e-1c65-4f8c-b03e-879efabeea0b">
 
